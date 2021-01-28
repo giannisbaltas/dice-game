@@ -1,5 +1,5 @@
 # Dice Game
-Dice game is a very simply game that you can play it [here](https://dice-game-v1.netlify.app/)
+Dice game is a very simply game that you can play it [HERE](https://dice-game-v1.netlify.app/)
 
 ![p1](https://user-images.githubusercontent.com/56088382/106210294-34fc3300-61cf-11eb-84c9-db6e0538bd3b.png)
 
