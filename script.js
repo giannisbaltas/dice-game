@@ -79,3 +79,8 @@ btnHold.addEventListener('click', function () {
 
 //Button New Game functionality
 btnNew.addEventListener('click', reset);
+
+/*
+btnNew.addEventListener('click', function(){
+});
+*/
