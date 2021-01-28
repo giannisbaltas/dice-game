@@ -35,7 +35,7 @@ const reset = () => {
 //Initialise all items when the game starts.
 reset();
 
-
+//Switch player when button hold is pressed or when dice = 1
 const changePlayer = () => {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   currentScore = 0;
@@ -65,7 +65,7 @@ btnHold.addEventListener('click', function () {
   if (playing) {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
-
+    //Finish the game
     if (scores[activePlayer] >= 150) {
       playing = false;
       diceElement.classList.add('hidden');
