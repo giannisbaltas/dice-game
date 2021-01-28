@@ -1,18 +1,6 @@
 'use strict';
-/*'use strict';
 
-const playerElement0 = document.querySelector('.player--0');
-const playerElement1 = document.querySelector('.player--1');
-const diceElement = document.querySelector('.dice');
-const btnNew = document.querySelector('.btn--new');
-const btnRoll = document.querySelector('.btn--roll');
-const btnHold = document.querySelector('.btn--hold');
-const scoreElement0 = document.getElementById('score--0');
-const scoreElement1 = document.getElementById('score--1');
-const currentElement0 = document.getElementById('current--0');
-const currentElement1 = document.getElementById('current--1');
-*/
-
+//Selecting elements
 const playerElement0 = document.querySelector('.player--0');
 const playerElement1 = document.querySelector('.player--1');
 const diceElement = document.querySelector('.dice');
@@ -26,6 +14,7 @@ const currentElement1 = document.getElementById('current--1');
 
 let activePlayer, scores, currentScore, playing;
 
+//Reset everything
 const reset = () => {
   playerElement0.classList.remove('player--winner');
   playerElement1.classList.remove('player--winner');
@@ -45,6 +34,7 @@ const reset = () => {
 
 //Initialise all items when the game starts.
 reset();
+
 
 const changePlayer = () => {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
